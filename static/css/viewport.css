@@ -1,0 +1,75 @@
+
+.home,
+.back {
+	top: calc(50% - 4.45rem) !important;
+	left: 48% !important;
+	font-size: 1rem;
+	width: 6.9rem !important;
+	height: 9rem !important;
+}
+
+.logo {
+	margin: 1.2rem auto 0 !important;
+	width: 1.2rem !important;
+	height: 1.2rem !important;
+	line-height: 1.2rem !important;
+	font-size: .4rem !important;
+}
+
+.logo:before {
+	width: 1rem !important;
+	height: 1rem !important;
+	top: 0.0644rem !important;
+	left: 0.0773rem !important;
+}
+
+.home_title {
+	margin: .2rem 0 !important;
+	font-size: .44rem !important;
+}
+
+.home_content {
+	font-size: .3rem !important;
+	padding: .1rem 0 !important;
+}
+
+.year {
+	margin-top: 1rem !important;
+	font-size: .8rem !important
+}
+
+.photo {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	width: .8rem !important;
+	height: 1.6rem !important;
+}
+
+.content {
+	top: calc(50% - 4.36rem) !important;
+	left: 48% !important;
+	width: 6.78rem !important;
+	height: 8.82rem !important;
+}
+
+.content_title {
+	padding-top: 2rem !important;
+}
+
+.content_title>h3 {
+	font-size: .48rem !important;
+	margin: 0 0 .2rem!important;
+}
+
+.content_title>p {
+	font-size: .36rem !important;
+}
+
+.content_text {
+	padding: 2rem .4rem !important;
+}
+
+.content_text>p {
+	font-size: .28rem!important;
+}

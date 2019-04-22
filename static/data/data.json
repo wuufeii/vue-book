@@ -1,0 +1,86 @@
+baseData([{
+	title: 'vue-book',
+	frontCover: {
+		logo: 'Wf',
+		title: '这是笔记本',
+		content: '青春纪念手册',
+		year: '2019'
+	},
+	content: [{
+			isTitle: true,
+			isFront: true,
+			pre: 'first',
+			cur: 'ref_1',
+			next: 'ref_1_1',
+			chapter: '第一章',
+			title: '这是第一章标题',
+			content: ''
+		}, {
+			isTitle: false,
+			isFront: true,
+			pre: 'ref_1',
+			cur: 'ref_1_1',
+			next: 'ref_1_2',
+			chapter: '',
+			title: '',
+			content: '这里是第一页文字这里是第一页文字'
+		}, {
+			isTitle: false,
+			isFront: true,
+			pre: 'ref_1_1',
+			cur: 'ref_1_2',
+			next: 'ref_1_3',
+			chapter: '',
+			title: '',
+			content: '这里是第二页文字这里是第二页文字'
+		}, {
+			isTitle: false,
+			isFront: true,
+			pre: 'ref_1_2',
+			cur: 'ref_1_3',
+			next: 'ref_1_4',
+			chapter: '',
+			title: '',
+			content: '这里是第三页文字这里是第三页文字'
+		}, {
+			isTitle: false,
+			isFront: true,
+			pre: 'ref_1_3',
+			cur: 'ref_1_4',
+			next: 'ref_2',
+			chapter: '',
+			title: '',
+			content: '这里是第四页文字这里是第四页文字'
+		},
+		{
+			isTitle: true,
+			isFront: true,
+			pre: 'ref_1_4',
+			cur: 'ref_2',
+			next: 'ref_2_1',
+			chapter: '第二章',
+			title: '这是第二章标题',
+			content: ''
+		},
+		{
+			isTitle: false,
+			isFront: true,
+			pre: 'ref_2',
+			cur: 'ref_2_1',
+			next: 'ref_2_2',
+			chapter: '',
+			title: '',
+			content: '这里是第二章第一页这里是第二章第一页'
+		},
+		{
+			isTitle: false,
+			isFront: true,
+			pre: 'ref_2_1',
+			cur: 'ref_2_2',
+			next: 'last',
+			chapter: '',
+			title: '',
+			content: '这里是第二章第二页这里是第二章第二页'
+		}
+	]
+}])
