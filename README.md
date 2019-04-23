@@ -14,12 +14,12 @@
 
 		封面效果
 <div align="center">
-  <img width="300" src="https://github.com/wuufeii/html-css/blob/master/assets/img-vueBook/1.png"/>
+  <img width="800" src="https://github.com/wuufeii/html-css/blob/master/assets/img-vueBook/1.png"/>
 </div>
 
 		内容区效果
 <div align="center">
-  <img width="300" src="https://github.com/wuufeii/html-css/blob/master/assets/img-vueBook/2.png"/>
+  <img width="800" src="https://github.com/wuufeii/html-css/blob/master/assets/img-vueBook/2.png"/>
 </div>
 
 
@@ -29,6 +29,7 @@
 一、直接使用
 如果你直接使用这个，你只需要下载[dist]这个文件夹，然后找到static-data-data.json
 你只需要修改data.json里面的数据，就可以直接使用该项目，无需启动项目，无需添加html，无需修改css,只需浏览器打开即可用
+```
 
 >     data.json中字段含义
 
@@ -51,6 +52,7 @@ content: [{
 		}, {
 			...
 		}
+ ```
 
 >     *注意如果内容第一页的pre必须是first,最后一页的next必须是last,中间的每列索引可以自定义
 
