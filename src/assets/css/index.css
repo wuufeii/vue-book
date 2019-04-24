@@ -1,6 +1,7 @@
 .home,
 .content,
-.back {
+.back,
+.tip_container {
 	position: absolute;
 	border-radius: 10px;
 	background: linear-gradient(to bottom right, #484848, #3f3b38);
@@ -14,11 +15,13 @@
 }
 
 .home,
-.back {
+.back,
+.tip_container {
 	left: calc(50% - 230px);
 	top: calc(50% - 325px);
 	width: 460px;
 	height: 650px;
+	font-family: STXinwei;
 }
 
 .home,
@@ -33,6 +36,7 @@
 	height: 646px;
 	background: #fff;
 	box-shadow: #383838 -1px 1px 1px;
+	font-family: STXingkai;
 }
 
 .home_open {
@@ -48,7 +52,8 @@
 	text-align: center;
 	line-height: 74px;
 	border: 2px solid #f3f3f3;
-	font-size: 24px;
+	font-size: 40px;
+	font-family: STXingkai;
 }
 
 .logo:before {
@@ -71,10 +76,11 @@
 
 .home_content {
 	text-align: center;
-	font-size: 16px;
+	font-size: 18px;
 	padding: 4px 0;
 	border-top: 2px solid #f3f3f3;
 	border-bottom: 2px solid #f3f3f3;
+	font-family: STKaiti;
 }
 
 .year {
@@ -159,6 +165,41 @@
 	transform: rotate(45deg);
 }
 
+.tips {
+	position: relative;
+	left: calc(50% + 280px);
+	top: 60px;
+	font-size: 13px;
+	display: inline-block;
+	width: 78px;
+	height: 60px;
+	border: 2px solid #f3f3f3;
+	border-radius: 45px;
+	padding: 15px;
+}
+
+.tips:before {
+	content: '';
+	position: absolute;
+	bottom: -20px;
+	left: -20px;
+	width: 20px;
+	height: 16px;
+	border: 2px solid #f3f3f3;
+	border-radius: 10px;
+}
+
+.tips:after {
+	content: '';
+	position: absolute;
+	bottom: -45px;
+	left: -45px;
+	width: 10px;
+	height: 8px;
+	border: 2px solid #f3f3f3;
+	border-radius: 6px;
+}
+
 .photo {
 	position: absolute;
 	right: 10px;
@@ -201,13 +242,15 @@
 .z_index_1 {
 	z-index: 1;
 }
+
 .z_index_0 {
 	z-index: 0;
 }
 
 @media screen and (max-width: 1360px) {
 	.home,
-	.back {
+	.back,
+	.tip_container {
 		left: calc(50% - 140px);
 		top: calc(50% - 196px);
 		width: 280px;
@@ -218,6 +261,14 @@
 		top: calc(50% - 194px);
 		width: 276px;
 		height: 388px;
+	}
+	.click_tips {
+		left: 295px;
+		top: 300px;
+	}
+	.tips {
+		left: calc(50% + 190px);
+		top: 0;
 	}
 	.logo {
 		width: 50px;
@@ -294,7 +345,8 @@
 
 @media screen and (max-width: 800px) {
 	.home,
-	.back {
+	.back,
+	.tip_container {
 		left: 50%;
 		top: calc(50% - 160px);
 		width: 230px;
@@ -312,22 +364,36 @@
 		width: 228px;
 		height: 318px;
 	}
+	.click_tips {
+		width: 48px;
+		left: 240px;
+		top: 240px;
+		padding: 10px;
+	}
+	.tips {
+		left: calc(50% + 50px);
+		top: -140px;
+	}
 }
 
 @media screen and (max-width: 600px) {
 	.home,
-	.back {
+	.back,
+	.tip_container {
 		left: 50%;
 		top: calc(50% - 145px);
 		width: 200px;
 		height: 290px;
 	}
-
 	.content {
 		left: 50%;
 		top: calc(50% - 144px);
 		width: 198px;
 		height: 288px;
+	}
+	.click_tips {
+		left: 215px;
+		top: 205px;
 	}
 	.switch_close,
 	.switch_open {
@@ -339,7 +405,6 @@
 		border-bottom-left-radius: 15px;
 		border-top-left-radius: 15px;
 	}
-	
 	.switch_close:before,
 	.switch_open:before {
 		width: 14px;

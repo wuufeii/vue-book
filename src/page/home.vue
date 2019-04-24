@@ -1,10 +1,14 @@
 <template>
 	<div id="container">
 		<div id="output">
+			<div class="tip_container">
+				<span class="tips">点击封面开关打开或关闭书本！ 点击人物向前或向后翻页！</span>
+			</div>
 			<div class="back">
 				<i class="switch_open last" @click="handleClick('last','first','')"></i>
 				<span ref="click_tips" class="click_tips">不要点的太快，小手手都翻不过来了...</span>
 			</div>
+			
 			<div class="home first">
 				<div class="logo">{{frontCover.logo}}</div>
 				<div class="home_title">{{frontCover.title}}</div>
